@@ -123,6 +123,7 @@ struct CreateAuthorityCommand: AsyncCommand {
 
         // VERIFY
 
+        // TODO: summarise inputs for user to confirm before generating files
         guard context.console.confirm("\nAre you sure?") else {
             context.console.error("Failed to verify, stopping...")
             exit(1)
