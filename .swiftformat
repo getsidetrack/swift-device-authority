@@ -1,0 +1,17 @@
+--patternlet inline
+--swiftversion 5.6
+--trimwhitespace nonblank-lines
+--ifdef no-indent
+
+--disable spaceInsideBrackets
+--disable yodaConditions
+
+--enable isEmpty
+--enable sortedSwitchCases
+--enable wrapEnumCases
+--enable wrapSwitchCases
+--enable wrapConditionalBodies
+--enable blankLinesBetweenImports
+--enable blockComments
+
+--header "\n{file}\n\nCopyright 2023 • Sidetrack Tech Limited\n"
