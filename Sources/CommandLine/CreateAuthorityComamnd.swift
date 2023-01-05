@@ -153,7 +153,7 @@ struct CreateAuthorityCommand: AsyncCommand {
             "-key SwiftDeviceAuthority.key",
             "-sha256",
             "-days \(days)",
-            "-out SwiftDeviceAuthority.cer",
+            "-out SwiftDeviceAuthority.crt",
             "-subj '/\(subject)'",
             "-passin pass:\(password!)",
         ].joined(separator: " "))
@@ -166,7 +166,7 @@ struct CreateAuthorityCommand: AsyncCommand {
             name: name,
             abstract: description,
             organisation: organisation,
-            file: "SwiftDeviceAuthority.cer"
+            file: "SwiftDeviceAuthority.crt"
         ).export().write(to: outputPath)
         context.console.success("Completed")
 

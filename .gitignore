@@ -9,7 +9,4 @@ DerivedData/
 .netrc
 
 
-*.cer
-*.pem
-*.key
-*.mobileconfig
+*[.cer,.crt,.srl,.pem,.key,.mobileconfig]
