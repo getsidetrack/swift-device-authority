@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16102FAB29678CD500FC1D30 /* DeviceAuthorityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16102FAA29678CD500FC1D30 /* DeviceAuthorityApp.swift */; };
+		16102FAD29678CD500FC1D30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16102FAC29678CD500FC1D30 /* ContentView.swift */; };
+		16102FAF29678CD700FC1D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16102FAE29678CD700FC1D30 /* Assets.xcassets */; };
+		16102FC22967914A00FC1D30 /* DeviceAuthority in Frameworks */ = {isa = PBXBuildFile; productRef = 16102FC12967914A00FC1D30 /* DeviceAuthority */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16102FA729678CD500FC1D30 /* DeviceAuthoritySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceAuthoritySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16102FAA29678CD500FC1D30 /* DeviceAuthorityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAuthorityApp.swift; sourceTree = "<group>"; };
+		16102FAC29678CD500FC1D30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16102FAE29678CD700FC1D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16102FBF2967912700FC1D30 /* DeviceAuthority */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DeviceAuthority; path = ..; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16102FA429678CD500FC1D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16102FC22967914A00FC1D30 /* DeviceAuthority in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16102F9E29678CD500FC1D30 = {
+			isa = PBXGroup;
+			children = (
+				16102FBF2967912700FC1D30 /* DeviceAuthority */,
+				16102FA929678CD500FC1D30 /* Sources */,
+				16102FA829678CD500FC1D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16102FA829678CD500FC1D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16102FA729678CD500FC1D30 /* DeviceAuthoritySample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16102FA929678CD500FC1D30 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				16102FAA29678CD500FC1D30 /* DeviceAuthorityApp.swift */,
+				16102FAC29678CD500FC1D30 /* ContentView.swift */,
+				16102FAE29678CD700FC1D30 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16102FA629678CD500FC1D30 /* DeviceAuthoritySample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16102FB529678CD700FC1D30 /* Build configuration list for PBXNativeTarget "DeviceAuthoritySample" */;
+			buildPhases = (
+				16102FA329678CD500FC1D30 /* Sources */,
+				16102FA429678CD500FC1D30 /* Frameworks */,
+				16102FA529678CD500FC1D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceAuthoritySample;
+			packageProductDependencies = (
+				16102FC12967914A00FC1D30 /* DeviceAuthority */,
+			);
+			productName = DeviceAuthority;
+			productReference = 16102FA729678CD500FC1D30 /* DeviceAuthoritySample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16102F9F29678CD500FC1D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					16102FA629678CD500FC1D30 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 16102FA229678CD500FC1D30 /* Build configuration list for PBXProject "DeviceAuthoritySample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16102F9E29678CD500FC1D30;
+			productRefGroup = 16102FA829678CD500FC1D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16102FA629678CD500FC1D30 /* DeviceAuthoritySample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16102FA529678CD500FC1D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16102FAF29678CD700FC1D30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16102FA329678CD500FC1D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16102FAD29678CD500FC1D30 /* ContentView.swift in Sources */,
+				16102FAB29678CD500FC1D30 /* DeviceAuthorityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16102FB329678CD700FC1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16102FB629678CD700FC1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.sidetrack.device-authority";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16102FA229678CD500FC1D30 /* Build configuration list for PBXProject "DeviceAuthoritySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16102FB329678CD700FC1D30 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		16102FB529678CD700FC1D30 /* Build configuration list for PBXNativeTarget "DeviceAuthoritySample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16102FB629678CD700FC1D30 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16102FC12967914A00FC1D30 /* DeviceAuthority */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DeviceAuthority;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16102F9F29678CD500FC1D30 /* Project object */;
+}
