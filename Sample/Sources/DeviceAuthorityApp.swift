@@ -1,8 +1,7 @@
 //
-//  DeviceAuthorityApp.swift
-//  DeviceAuthority
+// DeviceAuthorityApp.swift
 //
-//  Created by James Sherlock on 05/01/2023.
+// Copyright 2023 • Sidetrack Tech Limited
 //
 
 import SwiftUI
