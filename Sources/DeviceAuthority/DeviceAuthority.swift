@@ -121,6 +121,8 @@ public struct DeviceAuthority {
         SecTrustCreateWithCertificates([certificate] as CFArray, policy, &trust)
         
         guard let unwrappedTrust = trust else {
+            // This will get triggered if your certificate is encoded using PEM.
+            // `SecTrustCreateWithCertificates` expects certificates to use the DER encoding strategy.
             throw AuthorisationStatusError.invalidCertificate
         }
         

@@ -147,6 +147,7 @@ struct CreateLeafCommand: AsyncCommand {
             "-CAkey SwiftDeviceAuthority.key",
             "-CAcreateserial",
             "-out SwiftDeviceAuthority-Leaf.cer",
+            "-outform DER",
             "-days \(days)",
             "-sha256",
             "-passin pass:\(password!)",

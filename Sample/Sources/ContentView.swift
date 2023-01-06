@@ -24,7 +24,7 @@ struct ContentView: View {
         .padding()
         .onAppear {
             let api = 0
-            let authority = DeviceAuthority(name: "DebugModeLeaf")
+            let authority = DeviceAuthority(name: "SwiftDeviceAuthority-Leaf")
             
             switch api {
             case 0: // Swift Concurrency
