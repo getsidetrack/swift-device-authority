@@ -24,18 +24,23 @@ public struct DeviceAuthority {
                 let certificate = try loadCertificate() // provided by client
                 let trust = try createTrust(from: certificate)
                 
-                SecTrustEvaluateAsyncWithError(trust, .main) { _, success, error in
-                    if let error = createError(from: error) {
-                        continuation.resume(throwing: error)
-                        return
+                let queue = DispatchQueue.global(qos: .userInteractive)
+                queue.async {
+                    // Queue completion is called on *must* be same as the queue the function itself is called on.
+                    // Without this, it will crash.
+                    SecTrustEvaluateAsyncWithError(trust, queue) { _, success, error in
+                        if let error = createError(from: error) {
+                            continuation.resume(throwing: error)
+                            return
+                        }
+                        
+                        if success == false {
+                            continuation.resume(throwing: AuthorisationStatusError.failedWithoutError)
+                            return
+                        }
+                        
+                        continuation.resume()
                     }
-                    
-                    if success == false {
-                        continuation.resume(throwing: AuthorisationStatusError.failedWithoutError)
-                        return
-                    }
-                    
-                    continuation.resume()
                 }
             } catch {
                 continuation.resume(throwing: error)
@@ -140,11 +145,14 @@ public struct DeviceAuthority {
     }
     
     internal func createError(from error: CFError?) -> Error? {
-        guard let error = error as? NSError else {
+        guard let error = error else {
             return nil
         }
         
-        if error.domain == NSOSStatusErrorDomain, error.code == -25318 { // NSOSStatusErrorDomain: errSecCreateChainFailed
+        let domain = CFErrorGetDomain(error) as String
+        let code = CFErrorGetCode(error)
+        
+        if domain == NSOSStatusErrorDomain, code == -25318 { // NSOSStatusErrorDomain: errSecCreateChainFailed
             // “<certificate name>” certificate is not trusted
             return AuthorisationStatusError.untrusted
         }

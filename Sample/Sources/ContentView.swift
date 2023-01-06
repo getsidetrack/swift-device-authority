@@ -23,7 +23,7 @@ struct ContentView: View {
         .multilineTextAlignment(.center)
         .padding()
         .onAppear {
-            let api = 1
+            let api = 0
             let authority = DeviceAuthority(name: "DebugModeLeaf")
             
             switch api {
