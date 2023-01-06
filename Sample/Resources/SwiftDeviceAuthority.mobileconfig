@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>DeviceAuthority.cer</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIE5jCCAs4CCQDspsS0D7kmrzANBgkqhkiG9w0BAQsFADA1MRIw
+			EAYDVQQKDAlTaWRldHJhY2sxHzAdBgNVBAMMFkRldmljZUF1dGhv
+			cml0eSBTYW1wbGUwHhcNMjMwMTA2MTYyNDA3WhcNMzMwMTAzMTYy
+			NDA3WjA1MRIwEAYDVQQKDAlTaWRldHJhY2sxHzAdBgNVBAMMFkRl
+			dmljZUF1dGhvcml0eSBTYW1wbGUwggIiMA0GCSqGSIb3DQEBAQUA
+			A4ICDwAwggIKAoICAQDrEepKHJZgkIAF+dRp94dkqf8ttv49xzbL
+			cHcOy0lhNgcUgSfvbXvas5+Bc2G0dRVcu93KdUy9aXOvL+qDp+Qx
+			5P3ct4cRHlCLE8KGQxkaYeiEZ3N8YA+/DzW7Gt50VxjTBxDKtWNZ
+			SFp5p8T1x0D+A4VQhcM++V368fVwpgVNMSFSV2eLrwOEHih3UFv5
+			r9ZedWhCQK+ns7gXGJVH0HS9KDy2/sM2NmUpvHct+N6PQ9FSbFTX
+			+o62L1mEmZyXiVMJ594XHCqz/08w0TTYHouAh+h9nhNFpByLPAww
+			h8TT0vFGb9UZkNT60zVgMmA3lfYIb9q358UZGX3TvwsdsRNl9aIz
+			A9ScJV814Kq19iQFYAed6Uo8bYYGlDgOwLmyyImRNn12nCHCIRss
+			jC9HvGe/xgsLwcWXqdIo80/tvFWsjCVaXl2jC5T9w1CO+BkbGHFW
+			gyw1ocqQ9NFCaM3yx8rJSXkbBelSEq3stMh5DhzcBWaTtURx6tn4
+			YHUvHLArPIi09OLSEu8Yr0ZM8i8bn30Jl4kcxLkKggK82mtMJci6
+			ZLW0L45aCHbk9z6jT4b6hBxm/ti2k2hBKtBOw2ChK+FY08oUcHlG
+			QCI4fGuTbmbG+NHmRvkNSSt5IAA3Q2Lt29A3WiPEDaqWRYwJuaS8
+			ifMk2EFYdqs/H6O2omK5fHtVPQIDAQABMA0GCSqGSIb3DQEBCwUA
+			A4ICAQCOVFYnU3WR756DrJ4cqCc5Il0CYXiROw1YcLva2PBmc8EB
+			xWks9Gm91/ZgZDGyPjLNms4vZs0Y33BAdBHHOgRNopgP4XJIk0w1
+			DlPwlx30ZTcYEmqwRNCHcoZhCC75RvDaUDsQmc7RwwbbP1xUdyhx
+			svcXMkdGl2Nlj7ogzCwF4DYrN7Z2Ctx/imn4Pf1InBYxoWj1S7dF
+			FF216PkYLtTakHE8uWrCn8Gp0UvlbwqxOE6RBbWymYxFhmtuwqjU
+			rnM+/CWCcpZNO9FiuKY1h73Zkr460ZFnQXz5slB04SiPtA7mTw8z
+			WUaGjo0D82xDe92x8Udrw7nkiWKa21MaLqv4JnGSWDjfjzRvEIfI
+			+vcEtBgS8aslx+dArtpvB7dhQiV9PFVWrEwKZbtTWDAFA2SmL4PS
+			O0DCLbf4VmmQmtB/ALwyWDUEUiGuOeGMMvh8LMr/SDJquqEFK2Pd
+			Ro1X00LGjNt/mSfhZ9AAatjEZZ8i9WnmQ+vJJ9YfPXqYlARJrKh3
+			+Gt/fr+eBOWDZPVOv0U4oIVmZvGeJzwNjs74c7YRGNB+U9jCPR/X
+			vJGcwRovaxj72clf4N5d7+ay3WuMeEE+Z8ipu/OWXKHA/6l5+TAn
+			FqgK5VsfWOhkfd/xAyN3Xz83yBrWBT7DCovwc/OyUGfERRoSDdNt
+			57yv46U0b7gAbQ==
+			</data>
+			<key>PayloadDescription</key>
+			<string>Adds a CA root certificate</string>
+			<key>PayloadDisplayName</key>
+			<string>Swift Device Authority</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.root.9525C50C-2824-42AC-B0DF-55D32E619920</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>9525C50C-2824-42AC-B0DF-55D32E619920</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Demonstrates functionality within the DeviceAuthority package's sample app.</string>
+	<key>PayloadDisplayName</key>
+	<string>DeviceAuthority Sample</string>
+	<key>PayloadIdentifier</key>
+	<string>sidetrack.device-authority.2D0528E1-12FA-4206-AD61-2C6A25166614</string>
+	<key>PayloadOrganization</key>
+	<string>Sidetrack</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2D0528E1-12FA-4206-AD61-2C6A25166614</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

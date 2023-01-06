@@ -11,6 +11,7 @@
 		16102FAD29678CD500FC1D30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16102FAC29678CD500FC1D30 /* ContentView.swift */; };
 		16102FAF29678CD700FC1D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16102FAE29678CD700FC1D30 /* Assets.xcassets */; };
 		16102FC22967914A00FC1D30 /* DeviceAuthority in Frameworks */ = {isa = PBXBuildFile; productRef = 16102FC12967914A00FC1D30 /* DeviceAuthority */; };
+		16102FC72967947800FC1D30 /* SwiftDeviceAuthority-Leaf.cer in Resources */ = {isa = PBXBuildFile; fileRef = 16102FC52967946700FC1D30 /* SwiftDeviceAuthority-Leaf.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		16102FAC29678CD500FC1D30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16102FAE29678CD700FC1D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16102FBF2967912700FC1D30 /* DeviceAuthority */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DeviceAuthority; path = ..; sourceTree = "<group>"; };
+		16102FC52967946700FC1D30 /* SwiftDeviceAuthority-Leaf.cer */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftDeviceAuthority-Leaf.cer"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +39,9 @@
 			isa = PBXGroup;
 			children = (
 				16102FBF2967912700FC1D30 /* DeviceAuthority */,
-				16102FA929678CD500FC1D30 /* Sources */,
 				16102FA829678CD500FC1D30 /* Products */,
+				16102FC42967944D00FC1D30 /* Resources */,
+				16102FA929678CD500FC1D30 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +61,14 @@
 				16102FAE29678CD700FC1D30 /* Assets.xcassets */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		16102FC42967944D00FC1D30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16102FC52967946700FC1D30 /* SwiftDeviceAuthority-Leaf.cer */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16102FC72967947800FC1D30 /* SwiftDeviceAuthority-Leaf.cer in Resources */,
 				16102FAF29678CD700FC1D30 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
