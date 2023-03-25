@@ -134,7 +134,7 @@ struct CreateAuthorityCommand: AsyncCommand {
         // Create key
 
         context.console.info("\nCreating a unique RSA private key with your chosen password")
-        try shellOut(to: "openssl genrsa -aes256 -out SwiftDeviceAuthority.key 4096 -passout pass:\(password!)")
+        try shellOut(to: "openssl genrsa -aes256 -out SwiftDeviceAuthority.key -passout pass:\(password!) 4096")
         context.console.success("Completed")
 
         // Create authority
