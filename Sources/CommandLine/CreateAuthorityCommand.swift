@@ -1,5 +1,5 @@
 //
-// CreateAuthorityComamnd.swift
+// CreateAuthorityCommand.swift
 //
 // Copyright 2023 • Sidetrack Tech Limited
 //
